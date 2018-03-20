@@ -1,0 +1,122 @@
+body {
+    background: url('/assets/img/login_background.jpg');
+    background-size: auto auto;
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+#input-window {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 380px;
+    //height: 495px;
+    background: #222d32;
+    border-top: 5px solid #f39c12;
+    box-shadow: 0px 0px 50px black;
+}
+
+#input-window > h1 {
+    font-family: Impact;
+    color: #f39c12;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+    font-size: 30px;
+}
+
+#input-window > input[type=text],
+#input-window > input[type=password] {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    border: none;
+    background: #374850;
+    color: #f39c12;
+    text-align: center;
+    padding: 15px;
+    width: 250px;
+    transition: 0.3s;
+    outline: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#input-window > input[type=text]:focus::-webkit-input-placeholder,
+#input-window > input[type=password]:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+#input-window > input[type=text]:focus:-moz-placeholder,
+#input-window > input[type=password]:focus:-moz-placeholder {
+    color: transparent;
+}
+
+#input-window > input[type=text]:focus::-moz-placeholder,
+#input-window > input[type=password]:focus::-moz-placeholder {
+    color: transparent;
+}
+
+#input-window > input[type=text]:focus:-ms-input-placeholder,
+#input-window > input[type=password]:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+#input-window > input[type=text]:hover,
+#input-window > input[type=password]:hover {
+    box-shadow: inset 0px -4px #f39c12;
+}
+
+#input-window > input[type=text]:focus,
+#input-window > input[type=password]:focus {
+    box-shadow: inset 0px -4px #f39c12;
+}
+
+#input-window > input[type=submit] {
+    display: block;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #1a2226;
+    border: none;
+    border-bottom: 4px solid #f39c12;
+    color: #f39c12;
+    font-family: Impact;
+    font-size: 20px;
+    transition: 0.3s;
+    outline: 0;
+}
+
+#input-window > input[type=submit]:hover {
+    background: #f39c12;
+    border-bottom: 4px solid #666;
+    color: #666;
+    cursor: pointer;
+}
+
+#input-window > input[type=submit]:active {
+    background: #222;
+    border-bottom: 4px solid #f39c12;
+    color: #f39c12;
+    cursor: pointer;
+    transition: none;
+}
+
+#input-window > img {
+    width: 170px;
+    display: block;
+    margin: auto;
+    border-radius: 300px;
+    margin-bottom: 30px;
+}
+
+.alert {
+    width: 250px;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 0px;
+}

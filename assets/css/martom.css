@@ -1,0 +1,132 @@
+a, :visited{ 
+    outline: 0 !important;
+    outline: none !important;
+}
+:hover, :active, :focus{
+    outline: 0 !important;
+    outline: none !important;
+}
+
+.unselectable {
+   -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+div.box > div.box-body > div > div > input {
+    border: none;
+    background: #ededed;
+}
+
+.bootstrap-select  .dropdown-toggle {
+    background: #ededed;
+    border: none;
+}
+
+.bootstrap-select  .dropdown-toggle > span {
+    text-align: center !important;
+}
+
+.sidebar-form {
+    border: none !important;
+}
+
+.sidebar-form input, .sidebar-form .btn {
+    transition: none !important;
+}
+
+.sidebar-form, .sidebar-form * {
+    border-radius: 0px !important;
+}
+
+
+#search_type {
+    background: #2c3b41;
+    display: none;
+}
+
+#sidebar-toggle:active {
+    -webkit-outline: none;
+}
+
+#search_result {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 100px;
+    background: white;
+    width: 40vw;
+    min-width: 462px;
+    padding: 20px 20px;
+}
+
+#search-close {
+    position: absolute;
+    display: block;
+    margin:0;
+    padding: 0;
+    width: 5%;
+    text-align: center;
+    float: right;
+    height: 100%;
+    line-height: 100%;
+    left: 100%;
+    top: 0;
+    border-radius: 0;
+    background: white;
+}
+
+#search_result table * {
+    border: none;
+}
+
+td {
+    vertical-align: middle !important;
+}
+
+tr td span.btn {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+tr:hover td span.btn {
+    opacity: 1;
+}
+
+.navbar-nav>.user-menu>.dropdown-menu>li.user-header>img {
+    width: 120px;
+    height: 120px;
+}
+
+#customSMS div.col-xs-2 {
+    line-height: 34px;
+}
+
+#customSMS label {
+    font-size: 1.5em;
+}
+
+#customSMS textarea {
+    resize: none;
+    height: 151px;
+}
+
+#customSMS span {
+    border-radius: 0px;
+}
+
+#smsStats div#saldo {
+    background: #ededed;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 900;
+    font-size: 20px;
+}
